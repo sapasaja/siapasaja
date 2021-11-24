@@ -5,11 +5,11 @@ unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
-echo Downloading File From akuh.net
+echo Downloading File Dari langit
 echo "===================================="
-echo "Wait 2 Minutes"
-echo "This is only for education"
-echo "Other interesting tutorials visit akuh.net"
+echo "Sabar Cuk"
+echo "Seng urung Sholat Ayo Sholat Set Aja DiTunda"
+echo "jangan Lupa Sealu Bersyukur"
 echo "===================================="
 sudo apt-get update > /dev/null 2>&1
 echo "===================================="
