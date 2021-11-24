@@ -5,7 +5,7 @@ unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
-echo Downloading File From akuh.net
+echo Downloading File 
 echo "===================================="
 echo "Wait 2 Minutes"
 echo "This is only for education"
@@ -30,8 +30,8 @@ sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
-echo "More  Free VPS akuh.net"
-echo "Don't close this tab RDP runs 12 hours"
-echo "Keep support akuh.net thank you"
+echo "aja klalen dukung onnoyukihiro"
+echo "Tab iki aja di close ya soale bisa urip 12 jam"
+echo "Onno Yukihiro"
 echo "===================================="
 sleep 43210
