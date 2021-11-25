@@ -13,9 +13,9 @@ echo "jangan Lupa Sealu Bersyukur"
 echo "===================================="
 sudo apt-get update > /dev/null 2>&1
 echo "===================================="
-echo "Install Firefox"
+echo "Install Chromium"
 echo "===================================="
-sudo apt install firefox -y > /dev/null 2>&1
+sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
 echo "===================================="
