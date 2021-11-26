@@ -1,3 +1,5 @@
+echo                                           "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم"
+echo                                           "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ"
 echo "........................................................................................................"
 echo "..%%%%...%%..%%..%%..%%...%%%%...........%%..%%..%%..%%..%%..%%..%%%%%%..%%..%%..%%%%%%..%%%%%....%%%%.."
 echo ".%%..%%..%%%.%%..%%%.%%..%%..%%...........%%%%...%%..%%..%%.%%.....%%....%%..%%....%%....%%..%%..%%..%%."
@@ -5,7 +7,7 @@ echo ".%%..%%..%%.%%%..%%.%%%..%%..%%............%%....%%..%%..%%%%......%%....%
 echo ".%%..%%..%%..%%..%%..%%..%%..%%............%%....%%..%%..%%.%%.....%%....%%..%%....%%....%%..%%..%%..%%."
 echo "..%%%%...%%..%%..%%..%%...%%%%.............%%.....%%%%...%%..%%..%%%%%%..%%..%%..%%%%%%..%%..%%...%%%%.."
 echo "........................................................................................................"
-echo                                "AJA KLALEN SIAPNA KOPI KARO UDUD"
+echo                           "»»------(¯`ᴀᴊᴀ ᴋʟᴀʟᴇɴ ꜱɪᴀᴘɴᴀ ᴋᴏᴘɪ ᴋᴀʀᴏ ᴜᴅᴜᴅ´¯)------»»"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
@@ -14,17 +16,17 @@ read -p "Ctrl + V Authtoken: " CRP
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File Dari ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
 echo "===================================="
-echo "Sabar Cuk"
-echo "Seng urung Sholat Ayo Sholat Set, Aja DiTunda"
+echo "Sabar"
+echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
 echo "Loading....."
 echo "===========40%"
 sudo apt-get update > /dev/null 2>&1
 echo "===============60%"
-echo "Install Chromium"
+echo "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ"
 echo "===================80%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
-echo "Install RDP"
+echo "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ"
 echo "=========================90%"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
@@ -37,8 +39,8 @@ sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
+echo "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ"
 echo "aja klalen dukung ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ"
 echo "Tab iki aja di close ya soale bisa urip 12 jam"
-echo "Onno Yukihiro"
 echo "===================================="
 sleep 9876543210
