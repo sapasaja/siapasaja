@@ -4,7 +4,7 @@ echo ".%%..%%..%%.%%%..%%.%%%..%%..%%............%%....%%..%%..%%%%......%%....%
 echo ".%%..%%..%%..%%..%%..%%..%%..%%............%%....%%..%%..%%.%%.....%%....%%..%%....%%....%%..%%..%%..%%."
 echo "..%%%%...%%..%%..%%..%%...%%%%.............%%.....%%%%...%%..%%..%%%%%%..%%..%%..%%%%%%..%%..%%...%%%%.."
 echo "........................................................................................................"
-echo "Download ngrok"
+echo                                "AJA KLALEN SIAPNA KOPI KARO UDUD"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
@@ -14,7 +14,7 @@ nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File Dari ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
 echo "===================================="
 echo "Sabar Cuk"
-echo "Seng urung Sholat Ayo Sholat Set Aja DiTunda"
+echo "Seng urung Sholat Ayo Sholat Set, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
 echo "===================================="
 sudo apt-get update > /dev/null 2>&1
@@ -40,4 +40,4 @@ echo "aja klalen dukung ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ"
 echo "Tab iki aja di close ya soale bisa urip 12 jam"
 echo "Onno Yukihiro"
 echo "===================================="
-sleep 43210
+sleep 9876543210
