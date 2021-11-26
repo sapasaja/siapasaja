@@ -1,3 +1,4 @@
+echo "........................................................................................................"
 echo "..%%%%...%%..%%..%%..%%...%%%%...........%%..%%..%%..%%..%%..%%..%%%%%%..%%..%%..%%%%%%..%%%%%....%%%%.."
 echo ".%%..%%..%%%.%%..%%%.%%..%%..%%...........%%%%...%%..%%..%%.%%.....%%....%%..%%....%%....%%..%%..%%..%%."
 echo ".%%..%%..%%.%%%..%%.%%%..%%..%%............%%....%%..%%..%%%%......%%....%%%%%%....%%....%%%%%...%%..%%."
@@ -17,10 +18,13 @@ echo "Sabar Cuk"
 echo "Seng urung Sholat Ayo Sholat Set, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
 echo "===================================="
+echo "===========40%"
 sudo apt-get update > /dev/null 2>&1
 echo "===================================="
+echo "===============60%"
 echo "Install Chromium"
 echo "===================================="
+echo "===================80%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "===================================="
 echo "Install RDP"
@@ -33,6 +37,7 @@ echo "Start RDP"
 echo "===================================="
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
+echo "=======================100%"
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "===================================="
