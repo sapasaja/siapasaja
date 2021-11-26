@@ -19,7 +19,7 @@ echo "Sabar"
 echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
 echo "Loading....."
-echo "===========40%"
+echo "============40%"
 sudo apt-get update > /dev/null 2>&1
 echo "===============50%"
 echo "=================60%"
