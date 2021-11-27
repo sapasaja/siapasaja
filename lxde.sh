@@ -13,15 +13,17 @@ echo "Sabar Cuk"
 echo "Seng urung Sholat Ayo Sholat Set, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
 echo "================================"
-sudo apt-get install lxde > /dev/null 2>&1
-echo "===========40%"
-sudo apt install -y xrdp > /dev/null 2>&1
-sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
-echo "===============60%"
-echo "==============="
+udo apt-get update > /dev/null 2>&1
 echo "Install Chromium"
 echo "==============="
 sudo apt install chromium-browser -y > /dev/null 2>&1
+echo "===========40%"
+sudo apt install -y xrdp > /dev/null 2>&1
+sudo apt-get install lxde > /dev/null 2>&1
+sudo apt-get install lxde lxde-terminal -y > /dev/null 2>&1
+sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
+echo "===============60%"
+echo "==============="
 echo "===================80%"
 sudo service xrdp start > /dev/null 2>&1
 echo "=======================100%"
