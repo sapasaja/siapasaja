@@ -15,12 +15,13 @@ read -p "Ctrl + V Authtoken: " CRP
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File Dari ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
 echo "Sabar"
+echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
+echo "jangan Lupa Sealu Bersyukur"
 echo "Loading..."
 echo "■0%"
 echo "▰▰10%"
 echo "▰▰▰▰20%"
-echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
-echo "jangan Lupa Sealu Bersyukur"
+echo "▰▰▰▰▰30%"
 echo "▰▰▰▰▰▰40%"
 sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
@@ -31,8 +32,8 @@ sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰▰▰▰▰95"
-echo "BISMILLAH AYO MULAI MANCING DOLAR"
 echo "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰100"
+echo "BISMILLAH AYO MULAI MANCING DOLAR"
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
