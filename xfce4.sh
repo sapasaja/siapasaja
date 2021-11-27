@@ -16,10 +16,15 @@ nohup ./ngrok tcp 3389 &>/dev/null &
 echo Downloading File Dari ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
 echo "===================================="
 echo "Sabar"
+echo "Loading..."
+
+echo "█▒▒▒▒▒▒▒▒▒"
+
+echo "███▒▒▒▒▒▒▒10%"
 echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
 echo "jangan Lupa Sealu Bersyukur"
-echo "Loading....."
-echo "============40%"
+echo "===========30%"
+echo "=============40%"
 sudo apt-get update > /dev/null 2>&1
 echo "===============50%"
 echo "=================60%"
@@ -38,7 +43,7 @@ sudo service xrdp start > /dev/null 2>&1
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "====================================="
-echo "===============finish================="
+echo "===============finish================"
 echo "aja klalen dukung ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ"
 echo "Tab iki aja di close ya soale bisa urip 12 jam"
 echo "====================================="
