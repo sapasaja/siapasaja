@@ -13,11 +13,11 @@ unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
-echo Downloading File Dari ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
+echo ꦣꦺꦴꦮ꧀ꦤꦮꦢ꧀​ꦥ꦳ꦶꦊ​ꦱꦏꦶꦁ​ ꦲꦺꦴꦤ꧀ꦤꦺꦴ​ꦪꦸꦏꦶꦲꦶꦫꦺꦴ
 echo "Sabar"
 echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
-echo "jangan Lupa Sealu Bersyukur"
-echo "Loading..."
+echo "ꦱꦼꦏꦼꦢꦥ꧀​ꦚ꧀ꦗꦶꦃ"
+echo "ꦠꦱꦶꦃ​ꦭꦺꦴꦮꦢꦶꦁ​..."
 echo "■0%"
 echo "▰▰10%"
 echo "▰▰▰▰20%"
