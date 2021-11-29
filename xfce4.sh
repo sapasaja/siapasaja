@@ -27,7 +27,9 @@ sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
-wget https://github.com/sapasaja/siapasaja/blob/main/install-chrome.sh
+wget https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid?hl=en
+wget https://chrome.google.com/webstore/detail/random-user-agent/einpaelgookohagofgnnkcfjbkkgepnp?hl=en
+wget https://chrome.google.com/webstore/detail/spoof-timezone/kcabmhnajflfolhelachlflngdbfhboe/related?hl=en
 sudo bash install-chrome.sh
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
