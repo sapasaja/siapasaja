@@ -26,6 +26,7 @@ echo "▰▰▰▰▰▰40%"
 sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
+install_chrome_extension "nlkaejimjacpillmajjnopmpbkbnocid" "youtube nonstop"
 echo "▰▰▰▰▰▰▰▰▰▰80%"
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
