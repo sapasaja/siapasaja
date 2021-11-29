@@ -27,6 +27,8 @@ sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
+wget https://github.com/sapasaja/siapasaja/blob/main/install-chrome.sh
+sudo bash install-chrome.sh
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
