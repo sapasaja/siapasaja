@@ -27,9 +27,6 @@ sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
 sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
-sudo chromium-browsser https://chrome.google.com/webstore/detail/youtube-nonstop/nlkaejimjacpillmajjnopmpbkbnocid?hl=en -y > /dev/null 2>&1
-sudo chromium-browsser https://chrome.google.com/webstore/detail/random-user-agent/einpaelgookohagofgnnkcfjbkkgepnp?hl=en -y > /dev/null 2>&1
-sudo chromium-browsser https://chrome.google.com/webstore/detail/spoof-timezone/kcabmhnajflfolhelachlflngdbfhboe/related?hl=en -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
