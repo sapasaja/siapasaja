@@ -31,7 +31,7 @@ echo "▰▰▰▰▰▰▰▰60%"
 sudo apt install xfce4 -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
 sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
-sudo xset s off 2>&1
+sudo xset s off -y 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰▰▰▰▰95"
