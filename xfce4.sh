@@ -25,7 +25,8 @@ echo "▰▰▰▰▰30%"
 echo "▰▰▰▰▰▰40%"
 sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
-sudo apt install chromium-browser -y > /dev/null 2>&1
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
+sudo dpkg -i google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
