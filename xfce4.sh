@@ -25,8 +25,8 @@ echo "▰▰▰▰▰30%"
 echo "▰▰▰▰▰▰40%"
 sudo apt-get update > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
-wget https://download5.operacdn.com/pub/opera/desktop/81.0.4196.60/linux/opera-stable_81.0.4196.60_amd64.deb > /dev/null 2>&1
-sudo dpkg -i opera-stable_81.0.4196.60_amd64.deb > /dev/null 2>&1
+wget wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
+sudo dpkg -i google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰▰▰80%"
 echo "▰▰▰▰▰▰▰▰▰▰▰▰90%"
 sudo apt install -y xrdp > /dev/null 2>&1
