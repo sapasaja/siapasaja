@@ -25,7 +25,7 @@ wget wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.
 echo "▰▰▰▰20%"
 sudo dpkg -i google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "▰▰▰▰▰30%"
-sudo apt-get install openvpn network-manager-openvpn network-manager-openvpn-gnome -y > /dev/null 2>&1
+
 echo "▰▰▰▰▰▰40%"
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
