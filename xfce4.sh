@@ -25,11 +25,6 @@ wget wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.
 echo "▰▰▰▰20%"
 sudo dpkg -i google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 echo "▰▰▰▰▰30%"
-sudo apt install apt-transport-https -y > /dev/null 2>&1
-wget -q -O - https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | sudo apt-key add - > /dev/null 2>&1
-echo "deb https://deb.torproject.org/torproject.org $(lsb_release -cs) main" | sudo tee -a /etc/apt/sources.list > /dev/null 2>&1
-sudo apt-get update > /dev/null 2>&1
-sudo apt install tor deb.torproject.org-keyring torbrowser-launcher -y > /dev/null 2>&1
 echo "▰▰▰▰▰▰40%"
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "▰▰▰▰▰▰▰▰60%"
