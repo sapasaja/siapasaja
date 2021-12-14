@@ -18,22 +18,18 @@ echo "Sabar"
 echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
 echo "ꦱꦼꦏꦼꦢꦥ꧀​ꦚ꧀ꦗꦶꦃ"
 echo "ꦠꦱꦶꦃ​ꦭꦺꦴꦮꦢꦶꦁ​..."
-i=1
-sp="/-\|"
-echo -n ' '
-while true
-do
-    printf "\b${sp:i++%${#sp}:1}"
+echo "#####                     (33%)"
 sudo apt-get update > /dev/null 2>&1
 wget wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 sudo dpkg -i google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 sudo apt install firefox -y > /dev/null 2>&1
+echo "#############             (66%)"
 sudo apt install -y xrdp > /dev/null 2>&1
 sudo apt install xfce4 -y > /dev/null 2>&1
 sudo apt-get install xfce4 xfce4-terminal -y > /dev/null 2>&1
 sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
-done
+echo "#######################   (100%)"
 echo "BISMILLAH AYO MULAI MANCING DOLAR"
 echo XRDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
