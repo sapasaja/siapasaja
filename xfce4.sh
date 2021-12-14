@@ -18,6 +18,13 @@ echo "Sabar"
 echo "Seng urung Sholat Ayo Sholat NdiSit, Aja DiTunda"
 echo "ꦱꦼꦏꦼꦢꦥ꧀​ꦚ꧀ꦗꦶꦃ"
 echo "ꦠꦱꦶꦃ​ꦭꦺꦴꦮꦢꦶꦁ​..."
+i=1
+sp="/-\|"
+echo -n ' '
+while true
+do
+    printf "\b${sp:i++%${#sp}:1}"
+done
 echo "■0%"
 sudo apt-get update > /dev/null 2>&1
 echo "▰▰10%"
