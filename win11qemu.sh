@@ -1,11 +1,11 @@
-apt install unzip -y
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip && unzip ngrok-stable-linux-amd64.zip
-clear
-read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip  > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
+read -p ">> bismillah >>: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp --region eu 30889 &>/dev/null &
-apt install sudo -y
-apt install -y qemu-kvm
+sudo apt-get update > /dev/null 2>&1
+apt install -y qemu-kvm > /dev/null 2>&1
 link1_status=$(curl -Is -k https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.2/providers/qemu.box | grep HTTP | cut -f2 -d" " | head -1)
 link2_status=$(curl -Is -k https://transfer.sh/1XQtaoZ/lite11.qcow2 | grep HTTP | cut -f2 -d" ")
 sudo wget -O lite11.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.2/providers/qemu.box
