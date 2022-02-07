@@ -11,6 +11,11 @@ sudo apt-get update > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%%%%....%%%%..#"
 sudo apt install firefox -y > /dev/null 2>&1
 echo "#.%%..%%..%%%.%%..%%%.%%..%%..%%.....%%%%...%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
+sudo apt install apt-transport-https -y > /dev/null 2>&1
+curl -fsSL https://swupdate.openvpn.net/repos/openvpn-repo-pkg-key.pub | gpg --dearmor > /etc/apt/trusted.gpg.d/openvpn-repo-pkg-keyring.gpg
+curl -fsSL https://swupdate.openvpn.net/community/openvpn3/repos/openvpn3-$DISTRO.list >/etc/apt/sources.list.d/openvpn3.list
+sudo apt update
+sudo apt install openvpn3 -y > /dev/null 2>&1
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "#.%%..%%..%%.%%%..%%.%%%..%%..%%......%%....%%..%%..%%%%....%%..%%%%%%..%%..%%%%%...%%..%%.#"
 sudo apt install lxde -y > /dev/null 2>&1
