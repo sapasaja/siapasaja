@@ -1,5 +1,5 @@
 apt-get update
-wget -O android-x86_64-5.1-rc1.img https://bit.ly/3r1yVzd
+wget -O android-x86_64-5.1-rc1.img https://bit.ly/3HYnejd
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p ">>bismillah>>: " CRP 
