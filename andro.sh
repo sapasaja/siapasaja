@@ -10,5 +10,5 @@ apt-get install qemu-kvm qemu
 qemu-img create andro.img 30G
 echo RDP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
-qemu-system-x86_64 -hda android.img -m 8G ,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic
+qemu-system-x86_64 -hda andro.img -m 8G ,hostfwd=tcp::3388-:3389 -net nic -object rng-random,id=rng0,filename=/dev/urandom -device virtio-rng-pci,rng=rng0 -vga vmware -nographic
 sleep 4320000
