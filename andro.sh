@@ -1,7 +1,7 @@
 apt-get update
-wget -O android.vdi https://telkomuniversity.dl.sourceforge.net/project/osboxes/v/vb/1-A-d/9.0/R2/andr-9.0-r2-VB-64bit.7z
+wget https://telkomuniversity.dl.sourceforge.net/project/osboxes/v/vb/1-A-d/9.0/R2/andr-9.0-r2-VB-64bit.7z
 apt install p7zip -y > /dev/null 2>&1
-7z x android.7z
+7z x andr-9.0-r2-VB-64bit.7z
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p ">>bismillah>>: " CRP 
