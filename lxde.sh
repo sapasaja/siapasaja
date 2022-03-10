@@ -14,9 +14,9 @@ sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "#.%%..%%..%%%.%%..%%%.%%..%%..%%.....%%%%...%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "#.%%..%%..%%.%%%..%%.%%%..%%..%%......%%....%%..%%..%%%%....%%..%%%%%%..%%..%%%%%...%%..%%.#"
-sudo apt install lxqt -y > /dev/null 2>&1
+sudo apt install kde -y > /dev/null 2>&1
 echo "#.%%..%%..%%..%%..%%..%%..%%..%%......%%....%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
-sudo apt-get install lxqt lxqt-terminal -y > /dev/null 2>&1
+sudo apt-get install kde kde-terminal -y > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.......%%.....%%%%...%%..%%..%%..%%..%%..%%..%%..%%...%%%%..#"
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
