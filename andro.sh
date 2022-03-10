@@ -1,5 +1,5 @@
 apt-get update
-wget https://1drv.ms/u/s!AuGI2_1jLwMiam9BiMCkAKbiZpE?e=mbjBbL
+wget https://public.dm.files.1drv.com/y4msPxZdBnPQW_V--aQqXsdxBdUPloms-3txXVsi02OtAa9CcDkWqH7Bjh38pYYGK6ItKO0WEPkleXy8LjKIZ9_r0yDcuKzAm_7_-1ImSBIBleSfF3Ur7gRg_iAVT_1zO7SqknJ2fSAwsXWPVBTovNs-0TxXIS1z8h6BSlRQqhNQ6nd3JOljerIy2zvJ7LvbxRNdaPCUmRzVZkHibcFZXiwTgiUIIr05ttybcRkxQPMwfk
 unzip android.zip
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
