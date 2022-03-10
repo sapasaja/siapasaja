@@ -14,9 +14,9 @@ sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "#.%%..%%..%%%.%%..%%%.%%..%%..%%.....%%%%...%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "#.%%..%%..%%.%%%..%%.%%%..%%..%%......%%....%%..%%..%%%%....%%..%%%%%%..%%..%%%%%...%%..%%.#"
-sudo apt install mate -y > /dev/null 2>&1
+sudo apt install lxde -y > /dev/null 2>&1
 echo "#.%%..%%..%%..%%..%%..%%..%%..%%......%%....%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
-sudo apt-get install mate mate-terminal -y > /dev/null 2>&1
+sudo apt-get install lxde lxde-terminal -y > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.......%%.....%%%%...%%..%%..%%..%%..%%..%%..%%..%%...%%%%..#"
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 sudo service xrdp start > /dev/null 2>&1
