@@ -11,6 +11,7 @@ sudo apt-get update > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%%%%....%%%%..#"
 sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install chromium-browser -y > /dev/null 2>&1
+wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/122837111/c16d4500-9bae-11ea-8ebf-a5a7cc741dbe?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220317T003609Z&X-Amz-Expires=300&X-Amz-Signature=ad690a26269c07e7cc34a0e9c0b4e809caa5d9b5530b5600c7de16d590c28bf0&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=122837111&response-content-disposition=attachment%3B%20filename%3Dxdm-setup-7.2.11.tar.xz&response-content-type=application%2Foctet-stream
 echo "#.%%..%%..%%%.%%..%%%.%%..%%..%%.....%%%%...%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
 sudo apt install -y xrdp > /dev/null 2>&1
 echo "#.%%..%%..%%.%%%..%%.%%%..%%..%%......%%....%%..%%..%%%%....%%..%%%%%%..%%..%%%%%...%%..%%.#"
