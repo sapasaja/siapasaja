@@ -7,9 +7,12 @@ read -p ">> bismillah >>: " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
 echo "############################################################################################"
-sudo apt-get update > /dev/null 2>&1
+sudo apt install apt-transport-https curl > /dev/null 2>&1
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg > /dev/null 2>&1
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list > /dev/null 2>&1
+sudo apt update > /dev/null 2>&1
+sudo apt install brave-browser > /dev/null 2>&1
 echo "#..%%%%...%%..%%..%%..%%...%%%%.....%%..%%..%%..%%..%%..%%..%%..%%..%%..%%..%%%%%....%%%%..#"
-sudo apt install firefox -y > /dev/null 2>&1
 sudo apt install chromium-browser -y > /dev/null 2>&1
 echo "#.%%..%%..%%%.%%..%%%.%%..%%..%%.....%%%%...%%..%%..%%.%%...%%..%%..%%..%%..%%..%%..%%..%%.#"
 sudo apt install -y xrdp > /dev/null 2>&1
